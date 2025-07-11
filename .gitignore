@@ -10,3 +10,5 @@
 /ShopTemplate/BazarShop1.0/wwwroot/node_modules/
 /ShopTemplate/BazarShop1.0/appsettings.json
 /ShopTemplate/BazarShop1.0/appsettings.Development.json
+/.vs
+/ShopTemplate/.vs
