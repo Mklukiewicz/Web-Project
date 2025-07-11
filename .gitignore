@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ShopTemplate/BazarShop1.0/obj
+/ShopTemplate/BazarShop1.0/bin/Debug/net8.0
+/ShopTemplate/BazarShop1.0/bin/
+/ShopTemplate/BazarShop1.0/obj/
+/ShopTemplate/BazarShop1.0/.vs/
+/ShopTemplate/BazarShop1.0/wwwroot/node_modules/
+/ShopTemplate/BazarShop1.0/appsettings.json
+/ShopTemplate/BazarShop1.0/appsettings.Development.json
