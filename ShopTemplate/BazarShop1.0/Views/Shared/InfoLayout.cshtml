@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body style="background-color: #0a0a0a; color: white; font-family: 'Segoe UI', sans-serif;">
+    <header class="navbar">
+        <nav class="nav-links">
+            <a asp-controller="Home" asp-action="Home">O nas</a>
+            <a href="https://twojsklep.pl" target="_blank">Sklep</a>
+            <a asp-controller="Home" asp-action="Contact">Kontakt</a>
+        </nav>
+    </header>
+
+    <main class="info-content">
+        @RenderBody()
+    </main>
+</body>
+</html>

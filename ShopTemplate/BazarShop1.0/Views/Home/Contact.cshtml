@@ -1,0 +1,20 @@
+﻿@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Kontakt";
+   
+}
+
+<div class="hero-box"></div>
+
+<div class="contact-table">
+    <div class="contact-column">
+        <p class="contact-header">DANE KONTAKTOWE</p>
+        <p>nr.TELEFONU<br />MAIL<br />NIP ITP</p>
+    </div>
+    <div class="contact-column">
+        <p class="contact-header">INFORMACJE</p>
+        <a asp-controller="Info" asp-action="Returns">ZWROTY I REKLAMACJE</a><br />
+        <a asp-controller="Info" asp-action="Policy">POLITYKA PRYWATNOŚCI</a><br />
+        <a asp-controller="Info" asp-action="Rights">REGULAMIN SKLEPU</a>
+    </div>
+</div>
