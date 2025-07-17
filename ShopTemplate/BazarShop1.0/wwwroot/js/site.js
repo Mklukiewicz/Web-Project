@@ -1,4 +1,13 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿document.addEventListener("DOMContentLoaded", function () {
+    const toggleButton = document.getElementById("languageToggle");
+    const dropdown = document.getElementById("languageDropdown");
 
-// Write your JavaScript code.
+    toggleButton.addEventListener("click", function (e) {
+        e.stopPropagation(); // nie zamykaj od razu
+        dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
+    });
+
+    document.addEventListener("click", function () {
+        dropdown.style.display = "none";
+    });
+});

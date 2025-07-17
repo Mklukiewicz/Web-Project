@@ -1,4 +1,4 @@
-* {
+﻿* {
     box-sizing: border-box;
 }
 
@@ -23,15 +23,15 @@ body, html {
     gap: 40px;
 }
 
-    .nav-links a {
-        text-decoration: none;
-        color: white;
-        font-size: 16px;
-    }
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
 
-        .nav-links a:hover {
-            color: #cfcfcf;
-        }
+.nav-links a:hover {
+    color: #cfcfcf;
+}
 
 .main-content {
     padding: 60px;
@@ -86,7 +86,25 @@ body, html {
     text-decoration: none;
 }
 
-    .contact-column a:hover {
+.contact-column a:hover {
         color: #ccc;
-    }
-    }
+}
+
+.languageToggle {
+    all: unset;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.languageToggle img {
+    width: 24px;
+    height: 24px;
+    filter: invert(1);
+    transform: translateY(-6px);
+    transition: opacity 0.2s;
+}
+
+.languageToggle:hover img {
+    opacity: 0.75; 
+}
